@@ -41,6 +41,8 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-heading: 'Rubik Mono One', sans-serif;
+  --font-family-body: 'Montserrat', sans-serif;
 }
 
 *,
@@ -62,7 +64,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: var(--font-family-sans-serif);
+  font-family: var(--font-family-body);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -84,6 +86,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: var(--font-family-heading);
 }
 
 p {
@@ -5954,7 +5957,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: var(--font-family-sans-serif);
+  font-family: var(--font-family-body);
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6067,7 +6070,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: var(--font-family-sans-serif);
+  font-family: var(--font-family-body);
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
