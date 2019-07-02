@@ -27,13 +27,29 @@
 
 </head>
 <body class="bg-secondary">
+  <nav class="navbar d-none d-md-flex flex-column align-items-start justify-content-center position-fixed vh-100">
+      <a href="/" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-home fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline">Home</div></a>
+      <a href="#one" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-user fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline">Character</div></a>
+      <a href="#two" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-scroll fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline">Skills</div></a>
+      <a href="#three" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-briefcase fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline">Inventory</div></a>
+      <a href="#four" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-power-off fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline d-xl-none">AFK</div><div class="d-none d-xl-inline">Away From Keayboard</div></a>
+      <a href="#five" class="text-light py-3 text-decoration-none d-inline-flex align-items-center"><i class="fas fa-envelope fa-2x text-center mr-1" style="width: 40px;"></i><div class="d-none d-lg-inline">Mailbox</div></a>
+  </nav>
+  <nav class="navbar bg-light position-fixed border d-md-none vw-100" style="z-index: 10;">
+      <a href="/" class="text-primary"><i class="fas fa-home fa-2x text-center mx-1" style="width: 40px;"></i></a>
+      <a href="#one" class="text-primary"><i class="fas fa-user fa-2x text-center mx-1" style="width: 40px;"></i></a>
+      <a href="#two" class="text-primary"><i class="fas fa-scroll fa-2x text-center mx-1" style="width: 40px;"></i></a>
+      <a href="#three" class="text-primary"><i class="fas fa-briefcase fa-2x text-center mx-1" style="width: 40px;"></i></a>
+      <a href="#four" class="text-primary"><i class="fas fa-power-off fa-2x text-center mx-1" style="width: 40px;"></i></a>
+      <a href="#five" class="text-primary"><i class="fas fa-envelope fa-2x text-center mx-1" style="width: 40px;"></i></a>
+  </nav>
   <div class="container text-center pt-3 px-0 d-flex flex-column justify-content-between text-light min-vh-100" style="max-width: 700px;">
     <div class="mt-5">
       <h1>Paulo D'Alberti</h1>
       <footer><p>Ruby on Rails Developer | Project Manager | Corporate Trainer</p></footer>
     </div>
-    <div class="" style="height: 55vh;">
-      <img src="./img/Paulo.png" alt="Paulo D'Alberti" class="d-none d-sm-inline" style="height: 80%;">
+    <div class="">
+      <img src="./img/Paulo.png" alt="Paulo D'Alberti" class="d-none d-sm-inline" style="height: 40vh;">
       <p class="my-1 lead"><i>"Improvement, development, growth"</i></p>
       <footer class="blockquote-footer text-light">my motto</footer>
     </div>
@@ -49,14 +65,14 @@
     </div>
   </div>
   <div id="one" class="bg-light container position-relative border border-primary border-bottom-0 p-5 text-justify d-flex flex-column justify-content-center min-vh-100" style="max-width: 700px;">
-    <h2 class="text-center">Character</h2>
+    <h2 class="text-center mt-3 mt-md-0">Character</h2>
     <p class="text-center mb-3 lead"><i>Who am I, my general background, my values.</i></p>
     <p>If, like me, one of the first things you ask a person you’ve just met is where they are from, then know that my easy answer to that question is “I’m Italian, but I’ve lived most of my life in Czech Republic” (the hard answer involves 6 countries, one non-state entity, and a ton of cities I never get around to list all). Perhaps in part thanks to my background I’m <b>fascinated by cultures</b>: their history, their language, their people… where do all the differences come from and how do they define us today. But as much as I appreciate the diversity, I’m aware of the several conflicts that it produces, so this fascination of mine goes hand in hand with a desire to <b>bridge the differences</b> and find ways to further cross-cultural and international understanding.</p>
     <p class="mb-5">But not all is global communication. I’d say my main driving principle is <b>continuous growth</b>: striving every day to be better than the day before. I love learning, debating ideas, discovering new things and trying them out. If there is something that I truly fear is the day when my mind will refuse to dare to change. But growth is hard and we often need help along the way, so I make sure to <b>be there for others</b> when they need it – be it as a teacher, trainer, coach, or just a friend.</p>
     <a href="#two" class="align-self-center position-absolute" style="bottom: 20px;"><i class="far fa-arrow-alt-circle-down fa-3x"></i></a>
   </div>
-  <div id="two" class="bg-light container position-relative border border-primary border-bottom-0 p-5 text-center d-flex flex-column justify-content-center min-vh-100" style="max-width: 700px;">
-    <h2>Skills</h2>
+  <div id="two" class="bg-light container position-relative border border-primary border-bottom-0 p-5 text-center d-flex flex-column justify-content-beginning min-vh-100" style="max-width: 700px;">
+    <h2 class="mt-3 mt-md-0">Skills</h2>
     <p class="mb-3 lead"><i>What I know, what I can bring to a project.</i></p>
     <div class="accordion" id="skillsAccordion">
       <div class="card">
@@ -129,7 +145,7 @@
     <a href="#three" class="align-self-center position-absolute" style="bottom: 20px;"><i class="far fa-arrow-alt-circle-down fa-3x"></i></a>
   </div>
   <div id="three" class="bg-light container position-relative border border-primary border-bottom-0 p-5 text-center d-flex flex-column justify-content-center min-vh-100" style="max-width: 700px;">
-    <h2>Inventory</h2>
+    <h2 class="mt-3 mt-md-0">Inventory</h2>
     <p class="mb-3 lead"><i>The projects that I’ve built.</i></p>
     <div class="row">
       <div class="col-12 col-md-6">
@@ -184,8 +200,8 @@
     <a href="#four" class="align-self-center position-absolute" style="bottom: 20px;"><i class="far fa-arrow-alt-circle-down fa-3x"></i></a>
   </div>
   <div id="four" class="bg-light container position-relative border border-primary border-bottom-0 p-5 text-center d-flex flex-column justify-content-center min-vh-100" style="max-width: 700px;">
-    <h2 class="d-inline d-sm-none">AFK</h2>
-    <h2 class="d-none d-sm-inline">Away From Keyboard</h2>
+    <h2 class="d-inline d-sm-none mt-3">AFK</h2>
+    <h2 class="d-none d-sm-inline mt-3">Away From Keyboard</h2>
     <p class="lead"><i>What I did and do outside of programming.</i></p>
     <div class="my-3">
       <h4>Public speaking</h4>
@@ -282,7 +298,7 @@
     <a href="#five" class="align-self-center position-absolute" style="bottom: 20px;"><i class="far fa-arrow-alt-circle-down fa-3x"></i></a>
   </div>
   <div id="five" class="bg-light container border border-primary rounded-bottom p-5 mb-5 text-center d-flex flex-column justify-content-center" style="max-width: 700px;">
-    <h2 class="mb-5">Mailbox</h2>
+    <h2 class="mb-5 mt-3 mt-md-0">Mailbox</h2>
     <form method="POST" action="https://formspree.io/phdalberti+pf@gmail.com">
       <div class="form-row">
         <div class="form-group col-md-6 mb-4">
@@ -299,11 +315,11 @@
     </form>
     <p class="mt-5">...or reach out to me through these channels:</p>
     <ul class="list-inline">
-      <li class="list-inline-item mx-3"><a href="https://www.linkedin.com/in/paulodal/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-      <li class="list-inline-item mx-3"><a href="https://github.com/Naokimi"><i class="fab fa-github fa-2x"></i></a></li>
-      <li class="list-inline-item mx-3"><a href="https://medium.com/@phdalberti"><i class="fab fa-medium fa-2x"></i></a></li>
-      <li class="list-inline-item mx-3"><a href="https://line.me/ti/p/cIT4Z0kPKI"><i class="fab fa-line fa-2x"></i></a></li>
-      <li class="list-inline-item mx-3"><a href="https://t.me/pdalb"><i class="fab fa-telegram fa-2x"></i></a></li>
+      <li class="list-inline-item mx-2 mx-sm-3"><a href="https://www.linkedin.com/in/paulodal/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+      <li class="list-inline-item mx-2 mx-sm-3"><a href="https://github.com/Naokimi"><i class="fab fa-github fa-2x"></i></a></li>
+      <li class="list-inline-item mx-2 mx-sm-3"><a href="https://medium.com/@phdalberti"><i class="fab fa-medium fa-2x"></i></a></li>
+      <li class="list-inline-item mx-2 mx-sm-3"><a href="https://line.me/ti/p/cIT4Z0kPKI"><i class="fab fa-line fa-2x"></i></a></li>
+      <li class="list-inline-item mx-2 mx-sm-3"><a href="https://t.me/pdalb"><i class="fab fa-telegram fa-2x"></i></a></li>
     </ul>
   </div>
 
